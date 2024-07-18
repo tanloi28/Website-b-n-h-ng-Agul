@@ -1,0 +1,602 @@
+{
+  "products": [
+    {
+      "title": "Nike Air Force 1 Low By You",
+      "description": "ru44r844y3y84u",
+      "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/321852ae-3bb4-4228-9704-68a8ac41b0bc/custom-nike-air-force-1-low-by-you.png",
+      "price": 20.99,
+      "category": "2",
+      "isShow": true,
+      "id": "2"
+    },
+    {
+      "title": "Giày Nike KD Trey 5",
+      "description": "Just Do It",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png",
+      "price": 20.99,
+      "category": "1",
+      "isShow": true,
+      "id": "62"
+    },
+    {
+      "title": "Giày Nike KD Trey 5",
+      "description": "Just Do It",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png",
+      "price": 20.99,
+      "category": "2",
+      "isShow": true,
+      "id": "61"
+    },
+    {
+      "title": "Giày Nike KD Trey 5",
+      "description": "Just Do It",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png",
+      "price": 20.99,
+      "category": "Men",
+      "isShow": true,
+      "id": "68"
+    },
+    {
+      "title": "Giày Nike KD Trey 5",
+      "description": "Just Do It",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png",
+      "price": 20.99,
+      "category": "1",
+      "isShow": true,
+      "id": "58"
+    },
+    {
+      "id": "44",
+      "title": "Giày Nike KD Trey 5",
+      "description": "Just Do It",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png",
+      "price": 20.99,
+      "isShow": true
+    },
+    {
+      "id": "68",
+      "title": "Giày Nike KD Trey 5",
+      "description": "Just Do It",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png",
+      "price": 20.99,
+      "isShow": true
+    },
+    {
+      "id": "17",
+      "title": "Giày Nike KD Trey 5",
+      "description": "Just Do It",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png",
+      "price": 20.99,
+      "isShow": true
+    },
+    {
+      "id": "23",
+      "title": "Giày Nike KD Trey 5",
+      "description": "Just Do It",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png",
+      "price": 20.99,
+      "isShow": true
+    },
+    {
+      "id": "98",
+      "title": "Giày Nike KD Trey 5",
+      "description": "Just Do It",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/57558712-5ebe-4abb-9984-879f9e896b4c/air-force-1-07-easyon-shoes-lpjTWM.png",
+      "price": 20.99,
+      "isShow": true
+    },
+    {
+      "id": "9383",
+      "title": "tanloi",
+      "description": "dhdhd",
+      "image": "deweyde",
+      "price": 144,
+      "isShow": true
+    },
+    {
+      "title": "Sản phẩm loi",
+      "description": "alo",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 6768,
+      "category": "Kit",
+      "isShow": false,
+      "id": "4062"
+    },
+    {
+      "id": "31d2",
+      "title": "iPhone 15 Pro Max",
+      "description": "alo",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 12,
+      "isShow": false
+    },
+    {
+      "id": "0f97",
+      "title": "Sản phẩm loi",
+      "description": "rr34",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 445,
+      "isShow": false
+    },
+    {
+      "id": "083d",
+      "title": "ytwywt1",
+      "description": "ưty2y",
+      "image": "wwwwwwwwwwe",
+      "price": 33000,
+      "isShow": false
+    },
+    {
+      "id": "f158",
+      "title": "Sản phẩm loi",
+      "description": "4tth",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 444,
+      "isShow": false
+    },
+    {
+      "id": "6106",
+      "title": "iPhone 15 Pro Max",
+      "description": "ịtgt",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 84343,
+      "isShow": true
+    },
+    {
+      "id": "afea",
+      "title": "tanloiojjjjj",
+      "description": "ƯHDSVH",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 2,
+      "category": "2",
+      "isShow": false
+    },
+    {
+      "id": "5381",
+      "title": "Sản phẩm loi",
+      "description": "rh4r",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 4,
+      "category": "Men",
+      "isShow": false
+    },
+    {
+      "id": "dab4",
+      "title": "Sản phẩm loi",
+      "description": "rrr",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 444,
+      "category": "Men",
+      "isShow": true
+    },
+    {
+      "title": "Sản phẩm loi",
+      "description": "333333333333",
+      "image": "rẻ",
+      "price": 3333,
+      "category": "Women",
+      "isShow": true,
+      "id": "1f3a"
+    },
+    {
+      "id": "0280",
+      "title": "Sản phẩm loi",
+      "description": "33e",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 23,
+      "category": "Men",
+      "isShow": true
+    },
+    {
+      "title": "Sản phẩm loi",
+      "description": "eqeqd",
+      "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/321852ae-3bb4-4228-9704-68a8ac41b0bc/custom-nike-air-force-1-low-by-you.png",
+      "price": 3,
+      "category": "Men",
+      "isShow": true,
+      "id": "bdc4"
+    },
+    {
+      "title": "Sản phẩm loi",
+      "description": "ê",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 33333333,
+      "category": "Women",
+      "isShow": true,
+      "id": "3a9f"
+    },
+    {
+      "id": "8aa2",
+      "title": "Sản phẩm loi",
+      "description": "7y3r",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 3333,
+      "category": "1",
+      "isShow": true
+    },
+    {
+      "id": "5a11",
+      "title": "Sản phẩm loi",
+      "description": "yugy",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 7,
+      "category": "Wome",
+      "isShow": true
+    },
+    {
+      "id": "120c",
+      "title": "Sản phẩm loi",
+      "description": "oue3eu3e",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 23213,
+      "category": "Men",
+      "isShow": true
+    },
+    {
+      "id": "732a",
+      "title": "Nike Air Force 1 Low By You",
+      "description": "eeeeeeeeeeeeee",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 9999,
+      "category": "Wome",
+      "isShow": false
+    },
+    {
+      "id": "4b71",
+      "title": "Sản phẩm loi",
+      "description": "34uh32y43",
+      "image": "rhuruif",
+      "price": 999,
+      "category": "1",
+      "isShow": false
+    },
+    {
+      "id": "e2bd",
+      "title": "Sản phẩm loi",
+      "description": "ưihr34ur3",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 33,
+      "category": "1",
+      "isShow": false
+    },
+    {
+      "id": "dd41",
+      "title": "Nike Air Force 1 Low By You",
+      "description": "tgtg",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 55,
+      "category": "1",
+      "isShow": true
+    },
+    {
+      "title": "Sản phẩm loi",
+      "description": "dd",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 3,
+      "category": "1",
+      "isShow": true,
+      "id": "699f"
+    },
+    {
+      "id": "8c36",
+      "title": "Sản phẩm loi",
+      "description": "êgyq",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 32,
+      "category": "1",
+      "isShow": true
+    },
+    {
+      "id": "e1e8",
+      "title": "888888",
+      "description": "9",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 99,
+      "category": "2",
+      "isShow": true
+    },
+    {
+      "id": "59c6",
+      "title": "88888888",
+      "description": "8888",
+      "image": "888",
+      "price": 8888,
+      "category": "1",
+      "isShow": false
+    },
+    {
+      "id": "57ac",
+      "title": "Sản phẩm loi",
+      "description": "yyyy",
+      "image": "https://trangtrinhaviet.vn/wp-content/uploads/2016/12/dong-ho-treo-tuong-dt003-11-570x428.jpg",
+      "price": 666,
+      "category": "1",
+      "isShow": true
+    },
+    {
+      "id": "3af6",
+      "title": "mkjijijioji",
+      "description": "uhhh\n",
+      "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/321852ae-3bb4-4228-9704-68a8ac41b0bc/custom-nike-air-force-1-low-by-you.png",
+      "price": 7777,
+      "category": "1",
+      "isShow": true
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Men"
+    },
+    {
+      "id": "2",
+      "name": "Women"
+    }
+  ],
+  "users": [
+    {
+      "username": "tanloi",
+      "email": "testuser@example.com",
+      "password": "12354",
+      "id": "2c3b"
+    },
+    {
+      "id": "f59d",
+      "username": "hjb jn nn",
+      "email": "tanloi28y@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2e9f",
+      "username": " rhejnjrke",
+      "email": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "280c",
+      "username": "ịuigngh jg",
+      "email": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "25da",
+      "username": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "0df5",
+      "username": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "a9b2",
+      "username": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "f2d8",
+      "username": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "87e9",
+      "username": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "e6b3",
+      "username": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "19a7",
+      "username": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "7f33",
+      "username": "tanloi2k8@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d883",
+      "username": "huẻiuferhfure",
+      "email": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d7de",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "7092",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "3000",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "6a89",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "1dee",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "6e5e",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "0f67",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d6fa",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "cea0",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "dd9b",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "1d37",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "34a4",
+      "username": "tanloi29@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "acb5",
+      "email": "tanloi209@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "6004",
+      "email": "tanloi209@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "8ec4",
+      "username": "ehuyewhb",
+      "email": "tanloi209@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "e468",
+      "email": "tanloi209@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "7c56",
+      "email": "tanloi209@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "cee1",
+      "username": "rhudew",
+      "email": "tanloi209@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "8d99",
+      "username": "djhbdsuhfew",
+      "email": "tanloi2009@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "0579",
+      "email": "tanloi2009@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "1f38",
+      "username": "fhuwbe",
+      "email": "tanloi20009@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "6fbb",
+      "email": "tanloi20009@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "a695",
+      "username": "tanlsio",
+      "email": "tanloi200909@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "fb23",
+      "username": "rhrf4rfeu",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "0bc2",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "2040",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "a61c",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "f667",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "f187",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "2cd7",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "50b8",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "ad48",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "94a9",
+      "email": "tanloi299@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "2738",
+      "username": "njrfwffr",
+      "email": "tanloi2959@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "7298",
+      "username": "ưdhbhd",
+      "email": "tanloi2989@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "1756",
+      "email": "tanloi2989@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "id": "8bb2",
+      "username": "Chienndh",
+      "email": "admin@gmail.com",
+      "password": "admin123"
+    }
+  ]
+}

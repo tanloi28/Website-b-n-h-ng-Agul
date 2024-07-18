@@ -1,0 +1,27 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#menu a {
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu1 a {
+    font-size: 14px;
+}
+.hr {
+
+height: 2px;
+/* Điều chỉnh độ dày của horizontal rule */
+background-color: black;
+/* Đổi màu nền của horizontal rule */
+border: none;
+/* Loại bỏ viền */
+margin: 20px 0;
+/* Điều chỉnh khoảng cách top và bottom */
+}

@@ -1,0 +1,39 @@
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-item1 {
+    margin-bottom: 10px; /* Khoảng cách giữa các mục */
+    padding-top: 20px;
+  }
+
+
+
+  .nav-item1 button:hover {
+    background-color: #495057; /* Màu nền khi di chuột vào */
+    color: white;
+    padding: 30px ;
+  }
+  .nav-item1 button {
+    width: 100%; /* Chiều rộng tối đa của button */
+    height: 40px; /* Chiều cao của button */
+    text-align: left; /* Căn văn bản ở gần bên trái */
+    border: none; /* Loại bỏ khung viền */
+    background-color: transparent; /* Xóa màu nền */
+    padding: 30px; /* Khoảng cách giữa văn bản và biên của button */
+    cursor: pointer; /* Biến con trỏ thành dấu nhấn */
+    display: flex; /* Sử dụng flexbox */
+    justify-content: flex-start; /* Căn theo chiều ngang ở gần bên trái */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.badge-true {
+  background-color: #177A4C;
+}
+
+.badge-false {
+  background-color: #DC3545;
+}

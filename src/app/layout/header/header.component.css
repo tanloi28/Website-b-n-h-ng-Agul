@@ -1,0 +1,20 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+#menu a{
+    padding: 0 20px;
+    color: black;
+}
+#menu1 a:hover{
+color: brown;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#menu1 a{
+    font-size: 14px;
+}
+.nav-item:hover{
+text-decoration: underline;
+}

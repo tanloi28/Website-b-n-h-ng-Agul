@@ -1,0 +1,107 @@
+.custom-form {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 1250px;
+    height:400px;
+    padding: 20px; 
+    border: 1px solid white; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+}
+ .nav-item1{
+font-size: 15px;} 
+.bg-light ul  :hover {
+    background-color: lightgray;
+}
+.ha{
+    color: #007bff;
+    font-weight: bold;
+
+}
+.bg-light ul li a {
+    text-decoration: none;
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho navbar */
+.navbar {
+    background-color: #f8f9fa;
+}
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center; 
+}
+
+.pagination button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-item1 {
+    margin-bottom: 10px; /* Khoảng cách giữa các mục */
+  }
+
+
+
+  .nav-item1 button:hover {
+    background-color: lightblue; /* Màu nền khi di chuột vào */
+    color: black;
+  }
+  .nav-item1 button {
+    width: 100%; /* Chiều rộng tối đa của button */
+    height: 40px; /* Chiều cao của button */
+    text-align: left; /* Căn văn bản ở gần bên trái */
+    border: none; /* Loại bỏ khung viền */
+    background-color: transparent; /* Xóa màu nền */
+    padding: 10px; /* Khoảng cách giữa văn bản và biên của button */
+    cursor: pointer; /* Biến con trỏ thành dấu nhấn */
+    display: flex; /* Sử dụng flexbox */
+    justify-content: flex-start; /* Căn theo chiều ngang ở gần bên trái */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.btn {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .btn svg, .btn i {
+    margin-right: 5px; /* Khoảng cách giữa icon và văn bản */
+    max-width: 16px; /* Đặt chiều rộng tối đa của icon */
+  }
+
+.logo {
+    width: 100px; /* Độ rộng của logo */
+    height: auto; /* Chiều cao tự động điều chỉnh cho phù hợp */
+}
+/* Định dạng tiêu đề Assignment */
+.navbar-nav .nav-item a h1 {
+    margin: 0; /* Xóa margin mặc định của tiêu đề */
+    font-size: 28px; /* Kích thước font */
+    color: #333; /* Màu chữ */
+    text-decoration: none; /* Xóa gạch chân */
+}

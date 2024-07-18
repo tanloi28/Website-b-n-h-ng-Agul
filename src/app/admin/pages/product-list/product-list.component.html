@@ -1,0 +1,115 @@
+<!-- <input type="text" [(ngModel)]="filterValue" (input)="filterProducts()" placeholder="Search by product name"> -->
+
+
+  <div class="d-flex">
+
+    <!-- 1. Bên trái: Sidebar (dùng navs của bootstrap) -->
+    <div class="bg-light" style="width: 200px; height: calc(100vh - 56px); background-color: black;">
+        <ul class="nav flex-column">
+            <li class="nav-item1">
+              <button class="ha" routerLink="/admin/products/list"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-check" viewBox="0 0 16 16">
+                <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708z"/>
+                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.707l.547.547 1.17-1.951a.5.5 0 1 1 .858.514"/>
+              </svg> Products</button>
+            </li>
+            <li class="nav-item1">
+              <button  routerLink="/admin/user" class="ha">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-dash" viewBox="0 0 16 16">
+                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 1 1 0-1"/>
+                    <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708z"/>
+                  </svg>Categories</button>
+            </li>
+          </ul>
+
+
+    </div>
+
+    <!-- 2. Bên phải: Nội dung chính (dùng container) -->
+    <div class="" style="width: calc(100% - 190px);">
+        <div class="container mt-1">
+          <!-- <input type="text" [(ngModel)]="filterValue" (keyup)="filterProducts()" placeholder="Search by product name">          -->
+          <div class="alert alert-danger" *ngIf="errorMessage" role="alert">
+            {{ errorMessage }}
+          </div>
+            <!-- Khu vực tiêu đề trang -->
+            <h3 class="text-center">DANH SÁCH SẢN PHẨM</h3>
+            <div class="input-group input-group-sm mb-1">
+              <input type="text" class="form-control" [(ngModel)]="filterValue" (keyup)="filterProducts()" placeholder="Search by product name">
+              <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" (click)="filterProducts()">
+                      Search
+                  </button>
+              </div> 
+ 
+            <!-- Khu vực button điều hướng -->
+            <div class="d-flex justify-content-end">
+              <a href="/admin/add" class="btn btn-outline-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+<path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+</svg><i class="bi bi-plus-lg">Tạo mới sản phẩm</i></a>
+          </div>
+            <!-- Cách khác -->
+            <!-- <div class="text-end">
+                        <a href="" class="btn btn-success">Tạo mới sản phẩm</a>
+                    </div> -->
+            
+            <!-- Khu vực bảng dữ liệu -->
+            <table class="table table-bordered table-hover table-striped ">
+                <thead>
+                    <tr>
+                        <th>Tiêu đề</th>
+                        <th>Mô tả</th>
+                        <th>Hình ảnh</th>
+                        <th>Giá</th>
+                        <th>Danh mục</th>
+                        <th>Hiển thị</th>
+                        <th>Hành động</th>
+                      </tr>
+
+                </thead>
+                <tbody>
+                  <tr         *ngFor="let product of filteredProducts | paginate: {itemsPerPage: 5, currentPage: p}">
+                    <td>{{ product.title }}</td>
+                    <td style="font-size: 15px;">{{ product.description }}</td>
+                    <td><img [src]="product.image" alt="{{ product.title }}" style="width: 90px;height: 80px;"></td>
+                    <td>{{ product.price }}</td>
+                    <td> {{ getCategoryName(product.category) }}</td>
+                    <td>
+                      <span [ngClass]="{'badge-true': product.isShow, 'badge-false': !product.isShow}" class="badge rounded-pill">
+                        {{ product.isShow ? 'Active' : 'Inactive' }}
+                      </span>
+                    </td>                   
+                     <td >
+                       <!-- <button class="btn btn-outline-secondary "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 12s3-8 10-8 10 8 10 8-3 8-10 8-10-8-10-8z" />
+                      </svg> -->
+                      <!-- <i class="bi bi-plus-lg">Detali</i></button> -->
+                      <a class="btn btn-outline-warning" [routerLink]="['/admin/edit', product.id]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wrench" viewBox="0 0 16 16">
+                          <path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11z"/>
+                        </svg>
+                        <i class="bi bi-plus-lg">Edit</i>
+                      </a>
+                      
+                    <button (click)="deleteProduct(product.id)"   class="btn btn-outline-danger">            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                        <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+                      </svg>
+                      <i class="bi bi-plus-lg">Delete</i></button>
+                    </td> 
+                    
+                  </tr>
+                </tbody>
+            </table>
+
+      
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="pagination">
+          <div class="pagination-container">
+            <pagination-controls (pageChange)="p = $event"></pagination-controls>
+          </div>
+        </div>
+    </div>

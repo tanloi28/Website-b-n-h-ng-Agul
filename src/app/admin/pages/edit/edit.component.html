@@ -1,0 +1,134 @@
+
+
+<div class="d-flex">
+
+  <!-- 1. Bên trái: Sidebar (dùng navs của bootstrap) -->
+  <div class="sidebar" style="background-color: #000000;">
+    <div class="bg-light" style="width: 200px; height: calc(100vh - 56px);">
+    <ul class="nav flex-column">
+        <li class="nav-item1">
+          <button class="ha" routerLink="/admin/products/list"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-check" viewBox="0 0 16 16">
+            <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708z"/>
+            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.707l.547.547 1.17-1.951a.5.5 0 1 1 .858.514"/>
+          </svg> Products</button>
+        </li>
+        <li class="nav-item1">
+          <button class="ha" onclick="location.href='index.html';">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-dash" viewBox="0 0 16 16">
+                <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M11 12h3a.5.5 0 0 1 0 1h-3a.5.5 0 1 1 0-1"/>
+                <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708z"/>
+              </svg>Categories</button>
+        </li>
+      </ul>
+
+    </div>  
+</div>
+
+<div class="custom-form">
+  <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+  <div id="successAlert" class="alert alert-success" style="display: none;">
+    Cập nhật sản phẩm thành công!<strong> <svg id="Layer_1" style="enable-background:new 0 0 512 512; width: 20px; height: 20px;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css"> .st0{fill:#41AD49;} </style><g><polygon class="st0" points="434.8,49 174.2,309.7 76.8,212.3 0,289.2 174.1,463.3 196.6,440.9 196.6,440.9 511.7,125.8 434.8,49     "/></g></svg>
+    </strong>
+  </div>
+  
+  <h2>Chỉnh sửa sản phẩm</h2>
+  <br>
+  <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <!-- Title Field -->
+    <div>
+      <label for="">Title</label>
+      <input
+        type="text"
+        name="tensanpham"
+        placeholder="Tên sản phẩm"
+        class="form-control input-field"
+        formControlName="title"
+      />
+      <br>
+      <div *ngIf="productForm.get('title')?.invalid && productForm.get('title')?.touched" class="error">
+        <div *ngIf="productForm.get('title')?.errors?.['required']">Title là bắt buộc.</div>
+        <div *ngIf="titleErrors?.['minlength']">Title ít nhất 6 kí tự.</div>
+      </div>
+    </div>
+
+    <!-- Image Field -->
+    <div>
+      <label for="">Hinh ảnh</label>
+      <input
+        type="text"
+        name="anhsanpham"
+        placeholder="Ảnh sản phẩm"
+        class="form-control input-field"
+        formControlName="image"
+      />
+      <br>
+      <div *ngIf="productForm.get('image')?.invalid && productForm.get('image')?.touched" class="error">
+        Hình ảnh là bắt buộc.
+      </div>
+    </div>
+
+    <!-- Description Field -->
+    <div>
+      <label for="">Mô tả</label>
+      <textarea
+        formControlName="description"
+        placeholder="Mô tả"
+        class="form-control input-field"
+      ></textarea>
+      <br>
+      <div *ngIf="productForm.get('description')?.invalid && productForm.get('description')?.touched" class="error">
+        Mô tả là bắt buộc.
+      </div>
+    </div>
+
+    <!-- Price Field -->
+    <div>
+      <label for="">Giá</label>
+      <input
+        type="number"
+        name="giatien"
+        placeholder="Giá tiền"
+        class="form-control input-field"
+        formControlName="price"
+      />
+      <br>
+      <div *ngIf="productForm.get('price')?.invalid && productForm.get('price')?.touched" class="error">
+        <div *ngIf="productForm.get('price')?.errors?.['required']">Giá là bắt buộc.</div>
+        <div *ngIf="productForm.get('price')?.errors?.['pattern']">
+          Giá phải là số và có tối đa hai chữ số thập phân.
+        </div>
+        <div *ngIf="productForm.get('price')?.errors?.['min']">Giá phải lớn hơn hoặc bằng 0.</div>
+      </div>
+    </div>
+
+    <!-- Category Field -->
+    <div>
+      <label for="">Danh mục</label>
+      <select
+        class="form-select"
+        aria-label="Default select example"
+        id="category"
+        formControlName="category"
+      >
+        <option value="" disabled selected>Chọn danh mục</option>
+        <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+
+      </select>
+      <div *ngIf="productForm.get('category')?.touched && productForm.get('category')?.invalid" class="error">
+        Category bắt buộc.
+      </div>
+    </div>
+
+    <!-- Is Show Field -->
+    <div>
+      <label>
+        <input type="checkbox" formControlName="isShow" /> Hiển thị
+      </label>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-outline-primary"  [disabled]="productForm.invalid">Cập nhật sản phẩm
+    </button>
+  </form>
+</div>
+</div>

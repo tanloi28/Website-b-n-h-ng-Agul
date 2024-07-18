@@ -1,0 +1,95 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#menu a {
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu1 a {
+    font-size: 14px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 0px;  
+    padding: 5px;
+  }
+  
+  input.ng-touched.ng-invalid,
+  textarea.ng-touched.ng-invalid {
+    border-color: red;
+  }
+  
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-item1 {
+    margin-bottom: 10px; /* Khoảng cách giữa các mục */
+    padding-top: 20px;
+  }
+
+
+
+  .nav-item1 button:hover {
+    background-color: #495057; /* Màu nền khi di chuột vào */
+    color: white;
+    padding: 30px ;
+  }
+  .nav-item1 button {
+    width: 100%; /* Chiều rộng tối đa của button */
+    height: 40px; /* Chiều cao của button */
+    text-align: left; /* Căn văn bản ở gần bên trái */
+    border: none; /* Loại bỏ khung viền */
+    background-color: transparent; /* Xóa màu nền */
+    padding: 30px; /* Khoảng cách giữa văn bản và biên của button */
+    cursor: pointer; /* Biến con trỏ thành dấu nhấn */
+    display: flex; /* Sử dụng flexbox */
+    justify-content: flex-start; /* Căn theo chiều ngang ở gần bên trái */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.input-field:not(:placeholder-shown) {
+  border-color: #28a745; /* Màu viền khi có dữ liệu */
+  border-width: 2px;
+}
+select.ng-touched.ng-invalid,
+textarea.ng-touched.ng-invalid {
+  border-color: red;
+}
+.loi{
+  color: red;
+  font-size: 10px;
+}
+.success-alert {
+    background-color: #177A4C;
+    color: #c3e6cb;
+    border-color: #c3e6cb;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  #successAlert {
+    position: fixed;
+    top: 20px;
+    right: 20px; /* Khoảng cách từ phải vào */
+    animation: slideIn 0.3s forwards, slideOut 0.3s forwards 2s; /* Hiệu ứng chạy và chạy lại */
+  }
+  
+  @keyframes slideIn {
+    0% { right: -200px; } /* Vị trí ban đầu nằm ngoài màn hình bên phải */
+    100% { right: 20px; } /* Vị trí sau khi chạy animation */
+  }
+  
+  @keyframes slideOut {
+    0% { right: 20px; } /* Vị trí ban đầu */
+    100% { right: -300px; } /* Di chuyển lại ngoài màn hình bên phải */
+  }
